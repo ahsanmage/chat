@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>User</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+  </head>
+  <body>
+    <div class="container clearfix" style="width: 500px;">
+      <div class="controls" style="border: none; width: 100%;">
+          <a href="/rooms" class="rooms-btn" style="width: auto; padding: 13px; font-size: 12px;">Rooms</a>
+          <a href="/logout" class="logout-btn" style="width: auto; padding: 13px; font-size: 12px;">Logout</a>
+      </div>
+
+      <div class="user" style="width: 100%;">
+        <div class="user-header clearfix">
+          <div class="user-about"> 
+            <div class="user-title">Welcome <strong><%= user.username %></strong></div>
+            <div style="padding-top: 13px;"><img src="<%= user.picture %>" alt="avatar"></div>
+          </div>
+          <i class="fa fa-th-list"></i>
+        </div> <!-- end user-header -->
+        
+      </div> <!-- end user -->
+
+    </div> <!-- end container -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  </body>
+</html>

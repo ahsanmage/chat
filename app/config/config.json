@@ -1,0 +1,15 @@
+{
+	"db": {
+		"username": "root",
+		"password": "abcd1234",
+		"host": "localhost",
+		"port": "27017",
+		"name": "chatting"
+	},
+	"sessionSecret": "<RandomString>",
+	"redis": {
+		"host": "127.0.0.1",
+		"port": 6379,
+		"password": ""
+	}
+}
